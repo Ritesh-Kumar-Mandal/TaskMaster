@@ -22,7 +22,6 @@ class Todo(db.Model):
         return '<Task %r>' % self.id
 
 ## To set url route use :- @app.route('/') and define the function for the route
-
 ## route and fuction for the main index page
 @app.route('/', methods=['POST','GET'])
 def index():
